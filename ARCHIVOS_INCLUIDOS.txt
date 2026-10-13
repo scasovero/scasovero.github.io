@@ -1,0 +1,14 @@
+README.txt
+foto-aldair-original.jpg
+foto-contabilidad.png
+foto-equipo.jpeg
+foto-escritorio.jpeg
+foto-fundador.jpg
+foto-hero.jpeg
+foto-sabrina.jpeg
+foto-samuel.jpeg
+index.html
+logo-sca-negative.png
+logo-sca-original.png
+script.js
+styles.css
