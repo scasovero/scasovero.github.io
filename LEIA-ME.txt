@@ -1,8 +1,0 @@
-SCA — PACOTE DO SITE PARA GITHUB PAGES
-Instagram: https://www.instagram.com/sca.asociados/
-
-Inclui HTML, CSS, JavaScript, logos PNG originais e fotografias.
-A foto DSC00164 selecionada foi ligada à seção Nosotros.
-A foto DSC00110 original foi incluída como terceira camada do banner, sem alterar o arquivo de origem.
-Antes de publicar, confira visualmente a página e confirme o endereço do mapa: há dois endereços diferentes nas referências disponíveis.
-As fontes oficiais Isidora/Shoika não estavam entre os arquivos localizados; o CSS mantém fontes substitutas.
