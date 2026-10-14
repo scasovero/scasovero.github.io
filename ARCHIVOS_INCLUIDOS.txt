@@ -1,0 +1,12 @@
+Archivos del sitio SCA Sovero & Contadores Asociados:
+- index.html: estructura y contenido en español.
+- styles.css: estilos, identidad visual y diseño adaptable para notebook, tablet y celular.
+- script.js: navegación móvil e interacciones.
+- logo-sca-original.png / logo-sca-negative.png: logotipos originales.
+- sca-shoika.ttf / sca-isidora.ttf / sca-isidora-semibold.ttf: tipografías de la identidad visual.
+- Fotos del equipo y fotos existentes de la empresa.
+- foto-integridad-sca.png: imagen para colaboración y transparencia.
+- foto-tributacion-sca.png: imagen para trabajo contable y tributario.
+- foto-auditoria-sca.png: imagen para auditoría y revisión.
+- foto-asesoria-sca.png: imagen para asesoría empresarial.
+- LEIA-ME.txt y README.txt: instrucciones para publicar.
