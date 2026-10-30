@@ -1,0 +1,7 @@
+SCA — Atualização pontual das oito correções visuais.
+
+No GitHub, substitua SOMENTE index.html e styles.css na raiz do repositório. Não apague outros arquivos nem o repositório. Faça commit e aguarde a publicação.
+
+Fotos: Nosotros usa foto-servicio-confianza.jpeg (já presente no site); Equipo/Aldair usa foto-nosotros-original.jpg (já presente no site). São alternativas existentes no pacote, não novas fotografias fornecidas.
+
+O ajuste das letras A no iPhone foi preservado. Teste o site no celular e no computador após publicar.
