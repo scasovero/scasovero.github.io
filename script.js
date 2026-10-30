@@ -19,7 +19,7 @@
     window.setInterval(() => {
       current = (current + 1) % dots.length;
       dots.forEach((dot, i) => dot.classList.toggle('active', i === current));
-    }, 7000);
+    }, 6000);
   }
   if (new URLSearchParams(window.location.search).get('enviado') === '1') {
     const form = document.querySelector('.contact-form');

@@ -374,3 +374,101 @@ body,button,input,textarea,select{font-family:Arial,Helvetica,sans-serif}
   .team-section .team-info {box-sizing:border-box!important}
 }
 @media(max-width:390px){.service-mosaic .service-tile{height:215px!important;min-height:215px!important}.intro .intro-photo img{height:235px!important}}
+
+/* SCA 30/10 — abertura: retrato inteiro no notebook e troca 1s mais rápida.
+   O desktop usa a imagem completa à direita, sem distorção. Mobile mantém seu enquadramento aprovado. */
+.hero-image {animation-duration:12s!important; background-repeat:no-repeat!important}
+.hero-image-one {animation-delay:0s!important}
+.hero-image-two {animation-delay:6s!important}
+@media (min-width:851px) {
+  .hero {background:#1b3447!important}
+  .hero-image {background-size:auto 100%!important;background-position:right center!important}
+  .hero-shade {background:linear-gradient(90deg,rgba(18,42,60,.97) 0%,rgba(18,42,60,.94) 34%,rgba(18,42,60,.64) 55%,rgba(18,42,60,.05) 86%)!important}
+  .hero-content {max-width:720px!important}
+}
+
+
+/* SCA — atualização consolidada 30/10: especialidades, filosofia, contato, rodapé e ícones */
+.services-section .section-heading{max-width:1150px;margin-left:auto;margin-right:auto}
+.services-section .section-heading h2{font-size:clamp(30px,3.2vw,48px)}
+.sca-services-layout{display:grid;grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);align-items:center;gap:clamp(28px,5vw,85px);max-width:1200px;margin:0 auto}
+.sca-services-layout .service-mosaic{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:repeat(2,190px)!important;gap:12px!important;min-height:0!important;height:auto!important}
+.sca-services-layout .service-tile{grid-area:auto!important;width:100%!important;height:190px!important;min-height:0!important;border-radius:7px!important;overflow:hidden!important}
+.sca-services-layout .service-tile img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover!important}
+.sca-services-layout .tile-copy{left:15px!important;right:12px!important;bottom:14px!important}
+.sca-services-layout .tile-copy h3{font-size:clamp(17px,1.5vw,23px)!important;line-height:1.16!important}
+.sca-services-layout .tile-copy p{font-size:12px!important;line-height:1.35!important}
+.sca-services-copy{max-width:520px;color:#536473}
+.sca-services-copy h3{font-family:Georgia,serif;font-size:clamp(28px,2.7vw,42px);font-weight:400;line-height:1.17;color:#243e53;margin:15px 0 22px}
+.sca-services-copy p{font-size:15px;line-height:1.85;margin:0 0 16px}
+.sca-service-link{display:inline-flex;align-items:center;gap:16px;margin-top:16px;padding:15px 21px;background:#29465f;color:#fff!important;text-decoration:none;font-weight:600;font-size:13px}
+.philosophy.section-wrap{display:block!important;width:100%!important;max-width:none!important;padding:72px max(24px,calc((100vw - 1200px)/2))!important;background:#f7f9fb!important;min-height:0!important}
+.philosophy .philosophy-feature{position:static!important;display:flex!important;flex-direction:column;align-items:center;text-align:center;max-width:850px!important;margin:0 auto 32px!important;min-height:0!important;height:auto!important;color:#263f54!important}
+.philosophy .philosophy-feature .eyebrow{color:#46667d!important}
+.philosophy .philosophy-feature h2{font-size:clamp(32px,3vw,45px)!important;color:#263f54!important;margin:10px 0!important}
+.philosophy .philosophy-feature p{color:#657887;line-height:1.7;font-size:15px}
+.philosophy .philosophy-feature a{display:none}
+.philosophy .values-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;grid-template-rows:auto!important;gap:15px!important;width:100%!important;max-width:1200px!important;margin:0 auto!important}
+.philosophy .value-card{min-width:0!important;min-height:245px!important;height:auto!important;box-sizing:border-box!important;padding:26px!important;background:#eaf2f8!important;color:#253e53!important;border:1px solid #dbe7ef!important;border-radius:7px!important}
+.philosophy .value-card h3{font-size:19px!important;line-height:1.3!important;color:#253e53!important;margin:12px 0!important}
+.philosophy .value-card p{font-size:14px!important;line-height:1.65!important;color:#4b6171!important}
+.philosophy .value-icon{color:#2e668a!important}
+.philosophy .value-card:first-child{background:#29465f!important;color:white!important;border-color:#29465f!important}
+.philosophy .value-card:first-child h3,.philosophy .value-card:first-child p,.philosophy .value-card:first-child .value-icon{color:white!important}
+.contact-details .sca-contact-item{display:flex;align-items:center;gap:16px;padding:15px 0}
+.contact-details .detail-icon{display:grid!important;place-items:center!important;flex:0 0 44px!important;width:44px!important;height:44px!important;padding:7px!important;box-sizing:border-box!important;background:#f4f7f9!important;border-radius:11px!important}
+.contact-details .detail-icon img{display:block!important;width:30px!important;height:30px!important;object-fit:contain!important}
+.sca-address-highlight{margin-top:24px!important;padding:23px!important;border:1px solid #dce5eb!important;border-left:4px solid #29465f!important;border-radius:6px!important;background:#f6f9fb!important}
+.sca-address-title{display:flex;align-items:center;gap:10px;color:#29465f;font-size:14px;letter-spacing:.07em;margin-bottom:12px}
+.sca-address-title span{font-size:27px}
+.sca-address-highlight>small:first-of-type{display:none}
+.sca-address-highlight p:first-of-type{font-size:17px!important;font-weight:600!important;color:#29465f!important;line-height:1.65!important}
+.site-footer{background:#173d69!important;color:#eaf2f8!important;padding:55px 28px 0!important}
+.sca-footer-inner{display:grid;grid-template-columns:1.25fr .8fr 1fr 1.5fr;gap:32px;max-width:1200px;margin:auto}
+.sca-footer-brand img{display:block;width:165px;max-width:100%;height:auto;object-fit:contain}
+.sca-footer-brand p{color:#c9d8e6;margin-top:15px}
+.sca-footer-column{display:flex;flex-direction:column;gap:11px;min-width:0}
+.sca-footer-column h3{font-size:13px;letter-spacing:.13em;color:#9dc9e5;margin:0 0 10px}
+.sca-footer-column a,.sca-footer-column p{color:#f2f6f9!important;font-size:13px;line-height:1.6;text-decoration:none;margin:0;overflow-wrap:anywhere}
+.sca-footer-social{display:flex;gap:12px;margin-top:10px}
+.sca-footer-social a{display:grid;place-items:center;width:35px;height:35px;background:#fff;border-radius:8px}
+.sca-footer-social img{width:25px;height:25px;object-fit:contain}
+.sca-footer-legal{max-width:1200px;margin:38px auto 0;padding:22px 0;border-top:1px solid #52718b;text-align:center;color:#d9e5ef;font-size:12px}
+.floating-instagram,.floating-whatsapp{display:grid!important;place-items:center!important;width:48px!important;height:48px!important;right:18px!important;padding:4px!important;box-sizing:border-box!important;background:#fff!important;border-radius:14px!important;box-shadow:0 5px 17px rgba(15,40,55,.16)!important;overflow:hidden!important;z-index:80!important}
+.floating-instagram img,.floating-whatsapp img{display:block!important;width:40px!important;height:40px!important;object-fit:contain!important}
+.floating-instagram{bottom:86px!important}.floating-whatsapp{bottom:24px!important}
+@media(max-width:850px){
+.sca-services-layout{grid-template-columns:1fr!important;gap:25px!important}
+.sca-services-layout .service-mosaic{grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:repeat(2,170px)!important}
+.sca-services-layout .service-tile{height:170px!important}
+.sca-services-copy{max-width:100%}
+.philosophy .values-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+.sca-footer-inner{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}
+}
+@media(max-width:620px){
+.sca-services-layout .service-mosaic{grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:repeat(2,170px)!important;gap:9px!important}
+.sca-services-layout .service-tile{height:170px!important;min-height:0!important;border-radius:7px!important}
+.sca-services-layout .tile-copy{left:10px!important;bottom:11px!important;right:8px!important}
+.sca-services-layout .tile-copy h3{font-size:17px!important}
+.sca-services-layout .tile-copy p{font-size:10px!important}
+.sca-services-copy h3{font-size:30px}
+.philosophy.section-wrap{padding:50px 18px!important}
+.philosophy .values-grid{grid-template-columns:1fr!important;gap:12px!important}
+.philosophy .value-card{min-height:0!important;padding:22px!important}
+.sca-footer-inner{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 18px}
+.sca-footer-brand img{width:130px}
+.site-footer{padding:42px 20px 0!important}
+.floating-instagram,.floating-whatsapp{width:44px!important;height:44px!important;right:12px!important;padding:4px!important;border-radius:12px!important}
+.floating-instagram img,.floating-whatsapp img{width:36px!important;height:36px!important}
+.floating-instagram{bottom:110px!important}.floating-whatsapp{bottom:56px!important}
+}
+@media(max-width:370px){.sca-services-layout .service-mosaic{grid-template-rows:repeat(2,148px)!important}.sca-services-layout .service-tile{height:148px!important}.sca-footer-inner{grid-template-columns:1fr}}
+
+/* Hero: consistent complete-image framing across devices where geometry permits */
+@media(min-width:851px){.hero-image{background-size:contain!important;background-position:right center!important}}
+
+/* Ajuste aprovado: logo SCA maior, proporcional e responsiva */
+@media(min-width:1121px){.site-header{min-height:112px;padding-top:8px;padding-bottom:8px}.site-header .brand{width:245px;flex:0 0 245px}.site-header .brand img{width:100%;max-height:100px;height:auto;object-fit:contain;object-position:left center}.site-header .main-nav{gap:clamp(10px,1.25vw,20px)}}
+@media(min-width:851px) and (max-width:1120px){.site-header .brand{width:190px;flex:0 0 190px}.site-header .brand img{max-height:88px}}
+@media(min-width:581px) and (max-width:850px){.site-header .brand{width:160px;flex:0 1 160px}.site-header .brand img{max-height:80px}}
+@media(min-width:371px) and (max-width:580px){.site-header .brand{width:145px;flex:0 1 145px}.site-header .brand img{max-height:77px}}

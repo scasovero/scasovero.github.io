@@ -1,15 +1,2 @@
-ATUALIZACAO SCA — 30/10 — CELULAR MAIS ELEGANTE
-
-No GitHub, substitua SOMENTE:
-- index.html
-- styles.css
-
-Nao apague as imagens, logos, outros arquivos nem o repositorio.
-Confirme as alteracoes com Commit changes.
-
-Ajustes para telas de ate 620px: cartoes de especialidades menores,
-foto e legenda Sobre SCA melhor posicionadas, mantendo as correcoes
-anteriores de Equipo e Filosofia.
-
-O layout de notebook nao foi intencionalmente alterado. Teste o site
-publicado no celular e no notebook antes de considerar concluido.
+SCA - atualização consolidada com logo maior
+Substitua no GitHub somente index.html, styles.css e script.js. Mantenha as fotos, logos e arquivos SVG originais que ja estao no repositorio. Depois clique em Commit changes. Verifique a versão notebook e celular.
