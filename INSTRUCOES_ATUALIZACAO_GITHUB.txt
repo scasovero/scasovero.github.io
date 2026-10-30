@@ -1,0 +1,15 @@
+SCA — Atualização incremental GitHub (30/10/2026)
+
+NÃO APAGUE O REPOSITÓRIO.
+
+Para atualizar apenas os arquivos modificados:
+1. Abra o repositório do site no GitHub.
+2. Substitua index.html e styles.css pelos arquivos do ZIP PATCH.
+3. Confirme as alterações (Commit changes).
+4. Aguarde o deploy do GitHub Pages e atualize o Safari.
+
+Não é necessário apagar fotos, logo, scripts nem outros arquivos.
+
+Alterações: layout responsivo do cabeçalho, ícones flutuantes, tipografia segura no Safari, fotos existentes na abertura, cor original da foto Nosotros, layout Filosofía e ícones de Contacto.
+
+ATENÇÃO: a causa exata das letras “a” não pode ser confirmada apenas pelo print; verifique o site publicado depois do deploy. As fotos de Nosotros e Equipo foram preservadas porque não foi enviada uma imagem substituta aprovada.
