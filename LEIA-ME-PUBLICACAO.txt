@@ -1,0 +1,6 @@
+SCA Sovero & Contadores Asociados — versão revisada.
+Abra index.html após extrair todos os arquivos.
+Para publicar em hospedagem estática, envie TODOS os arquivos desta pasta à raiz do site.
+Guarde uma cópia da versão anterior antes de substituir.
+O formulário de contato usa FormSubmit e precisa ser testado online.
+As fontes nesta versão são Georgia e Arial para evitar letras ausentes.
