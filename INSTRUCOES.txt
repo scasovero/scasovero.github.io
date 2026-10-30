@@ -1,7 +1,15 @@
-SCA — Atualização pontual das oito correções visuais.
+ATUALIZACAO SCA — 30/10 — CELULAR MAIS ELEGANTE
 
-No GitHub, substitua SOMENTE index.html e styles.css na raiz do repositório. Não apague outros arquivos nem o repositório. Faça commit e aguarde a publicação.
+No GitHub, substitua SOMENTE:
+- index.html
+- styles.css
 
-Fotos: Nosotros usa foto-servicio-confianza.jpeg (já presente no site); Equipo/Aldair usa foto-nosotros-original.jpg (já presente no site). São alternativas existentes no pacote, não novas fotografias fornecidas.
+Nao apague as imagens, logos, outros arquivos nem o repositorio.
+Confirme as alteracoes com Commit changes.
 
-O ajuste das letras A no iPhone foi preservado. Teste o site no celular e no computador após publicar.
+Ajustes para telas de ate 620px: cartoes de especialidades menores,
+foto e legenda Sobre SCA melhor posicionadas, mantendo as correcoes
+anteriores de Equipo e Filosofia.
+
+O layout de notebook nao foi intencionalmente alterado. Teste o site
+publicado no celular e no notebook antes de considerar concluido.
