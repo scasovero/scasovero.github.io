@@ -480,3 +480,31 @@ body,button,input,textarea,select{font-family:Arial,Helvetica,sans-serif}
 .team-photo img {display:block!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 30%!important;}
 .philosophy .value-card{min-height:0!important;}
 @media(min-width:900px){.philosophy.section-wrap{padding-top:45px!important;padding-bottom:48px!important}.philosophy .philosophy-feature{margin-bottom:20px!important}.philosophy .value-card{padding:18px 21px!important}.philosophy .value-card p{font-size:13px!important;line-height:1.45!important}}
+
+/* Ajustes pontuais de legibilidade, 02 nov 2026 */
+@media(min-width:851px){.site-header .main-nav a{font-size:clamp(12px,1.02vw,15px)!important;color:#264761!important}.team-section .team-info p{font-size:clamp(12px,1vw,14px)!important;line-height:1.65!important;color:#425866!important}.team-section .team-role{font-size:10px!important}.team-section .team-info h3{font-size:clamp(19px,1.7vw,24px)!important}}
+
+/* SCA: abertura em imagem integral conforme referencia enviada 02/11/2026 */
+.sca-top-strip{height:30px;background:#264761;display:flex;justify-content:flex-end;align-items:center;padding:0 clamp(18px,5vw,70px);box-sizing:border-box}
+.sca-top-social{display:flex;align-items:center;gap:13px}
+.sca-top-social a{display:flex;align-items:center;justify-content:center;width:21px;height:21px}
+.sca-top-social img{width:19px;height:19px;object-fit:contain}
+.site-header{min-height:88px!important;height:auto!important;padding:12px clamp(20px,4vw,64px)!important;gap:20px!important;box-sizing:border-box}
+.site-header .brand{width:150px!important;flex-basis:150px!important;min-width:130px!important}
+.site-header .brand img{width:100%!important;max-height:68px!important;object-fit:contain!important}
+.site-header .main-nav{gap:clamp(11px,1.7vw,27px)!important}
+.site-header .main-nav a{font-size:clamp(12px,1.03vw,15px)!important;color:#344b5d!important;white-space:nowrap}
+.site-header .header-cta{font-size:12px!important;padding:13px 16px!important;white-space:nowrap}
+.hero{height:clamp(480px,calc(100vh - 130px),780px)!important;min-height:480px!important;max-height:none!important;display:flex!important;justify-content:center!important;align-items:center!important;background:#264761!important;text-align:center!important}
+.hero .hero-image{inset:0!important;background-size:cover!important;background-position:center center!important;background-repeat:no-repeat!important}
+.hero .hero-image-one{background-image:url('foto-contabilidad-aprobada.jpg')!important}
+.hero .hero-image-two{background-image:url('foto-escritorio.jpeg')!important}
+.hero .hero-shade{background:linear-gradient(90deg,rgba(20,43,60,.48),rgba(20,43,60,.40)),linear-gradient(0deg,rgba(9,27,40,.28),transparent 50%)!important}
+.hero .hero-content{width:min(100%,1050px)!important;max-width:1050px!important;padding:50px 28px!important;margin:0 auto!important;text-align:center!important;display:flex!important;flex-direction:column!important;align-items:center!important;box-sizing:border-box!important}
+.hero .hero-content h1{font-family:Arial,Helvetica,sans-serif!important;font-weight:700!important;letter-spacing:-.025em!important;font-size:clamp(34px,4.2vw,62px)!important;line-height:1.13!important;max-width:1000px!important;margin:0 auto 16px!important;color:#fff!important}
+.hero .hero-content h1 em{font-family:inherit!important;font-style:normal!important;font-weight:700!important;color:#fff!important}
+.hero .hero-content>p{font-size:clamp(14px,1.25vw,18px)!important;line-height:1.5!important;color:#fff!important;max-width:720px!important;margin:0 auto 24px!important}
+.sca-hero-cta{display:inline-flex;align-items:center;justify-content:center;background:#2678ad;color:#fff!important;padding:14px 25px;font-size:14px;font-weight:700;text-decoration:none;border-radius:3px;transition:background .2s}
+.sca-hero-cta:hover{background:#1d608d}
+@media(max-width:850px){.sca-top-strip{height:26px}.site-header{min-height:76px!important;padding:8px 17px!important}.site-header .brand{width:110px!important;flex-basis:110px!important;min-width:110px!important}.site-header .main-nav{top:76px!important}.site-header .header-cta{font-size:10px!important;padding:10px!important}.hero{height:clamp(480px,78vh,690px)!important;min-height:480px!important}.hero .hero-content{padding:36px 22px!important}.hero .hero-content h1{font-size:clamp(30px,6.5vw,49px)!important}.hero .hero-content>p{font-size:14px!important}}
+@media(max-width:580px){.site-header .brand{width:96px!important;flex-basis:96px!important;min-width:96px!important}.site-header .header-cta{font-size:9px!important;padding:9px 7px!important}.hero{height:calc(100svh - 102px)!important;min-height:490px!important;max-height:730px!important}.hero .hero-content h1{font-size:clamp(29px,8.2vw,42px)!important}.hero .hero-content>p{font-size:13px!important}.sca-hero-cta{font-size:12px;padding:12px 18px}.hero .hero-image{background-position:55% center!important}}
