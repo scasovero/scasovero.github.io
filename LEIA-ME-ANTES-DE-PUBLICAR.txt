@@ -1,1 +1,13 @@
-VERSÃO DE RECONSTRUÇÃO SEGURA. Não publique sem revisar as prévias. Fontes Shoika/Isidora extraídas do PDF foram removidas porque causavam letras ausentes. Substituímos temporariamente por fontes de sistema. Fotos, textos e estrutura do site foram preservados.
+SCA — PRÉVIA DA REVISÃO FINAL (02/11/2026)
+
+Arquivos incrementais para revisar antes de publicar no GitHub.
+
+ATENÇÃO: A segunda fotografia do carrossel é PROVISÓRIA: a foto de Miraflores enviada pela usuária, e NÃO a opção 1 encontrada na pesquisa. A opção 1 escolhida precisa ser obtida em resolução adequada e com licença de uso comercial antes da publicação.
+
+Os serviços detalhados são propostas de texto, ainda precisam de validação comercial pela SCA.
+
+O arquivo index.html mantém a seção Clientes, o mapa e o rodapé literalmente idênticos à versão de referência.
+
+Para prévia local, colocar estes arquivos na raiz de uma cópia completa do site, junto aos logos, ícones e fotografias da equipe que já existem no GitHub. NÃO substitua o site publicado antes de revisar.
+
+Os novos arquivos de imagem têm prefixo sca- e não sobrescrevem os arquivos originais.

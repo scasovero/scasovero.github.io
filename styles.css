@@ -508,3 +508,66 @@ body,button,input,textarea,select{font-family:Arial,Helvetica,sans-serif}
 .sca-hero-cta:hover{background:#1d608d}
 @media(max-width:850px){.sca-top-strip{height:26px}.site-header{min-height:76px!important;padding:8px 17px!important}.site-header .brand{width:110px!important;flex-basis:110px!important;min-width:110px!important}.site-header .main-nav{top:76px!important}.site-header .header-cta{font-size:10px!important;padding:10px!important}.hero{height:clamp(480px,78vh,690px)!important;min-height:480px!important}.hero .hero-content{padding:36px 22px!important}.hero .hero-content h1{font-size:clamp(30px,6.5vw,49px)!important}.hero .hero-content>p{font-size:14px!important}}
 @media(max-width:580px){.site-header .brand{width:96px!important;flex-basis:96px!important;min-width:96px!important}.site-header .header-cta{font-size:9px!important;padding:9px 7px!important}.hero{height:calc(100svh - 102px)!important;min-height:490px!important;max-height:730px!important}.hero .hero-content h1{font-size:clamp(29px,8.2vw,42px)!important}.hero .hero-content>p{font-size:13px!important}.sca-hero-cta{font-size:12px;padding:12px 18px}.hero .hero-image{background-position:55% center!important}}
+
+/* SCA — prévia das revisões aprovadas. Clientes, mapa e rodapé não alterados. */
+.sca-top-strip{justify-content:flex-end}
+.site-header{height:88px!important;min-height:88px!important;padding-top:0!important;padding-bottom:0!important;gap:clamp(10px,1.25vw,20px)!important}
+.site-header .brand{width:155px!important;flex:0 0 155px!important;min-width:0!important;margin-left:10px}
+.site-header .brand img{max-height:74px!important}
+.site-header .main-nav{gap:clamp(9px,1.25vw,20px)!important}
+.site-header .main-nav a{font-size:clamp(11px,.9vw,13px)!important}
+.sca-header-social{display:flex;align-items:center;gap:8px;flex:0 0 auto}
+.sca-header-social a{width:30px;height:30px;display:flex;align-items:center;justify-content:center}
+.sca-header-social img{width:28px;height:28px;object-fit:contain}
+.hero .hero-image-one{background-image:url('sca-hero-aperto-maos.png')!important}
+/* Imagem de Miraflores é temporária até obtenção da opção 1 licenciada */
+.hero .hero-image-two{background-image:url('sca-hero-lima-referencia.jpg')!important}
+.intro .intro-photo{overflow:hidden!important;border-radius:5px!important;box-shadow:none!important;background:transparent!important}
+.intro .intro-photo:before,.intro .intro-photo:after,.intro .photo-note{display:none!important}
+.intro .intro-photo img{border-radius:5px!important;filter:none!important;object-fit:cover!important;object-position:center 40%!important}
+.sca-services-layout .service-mosaic{grid-template-rows:repeat(2,185px)!important}
+.sca-services-layout .service-tile{height:185px!important}
+.sca-services-layout .tile-copy{left:10px!important;right:10px!important;bottom:16px!important;text-align:center!important}
+.sca-services-layout .tile-copy p{max-width:100%!important;margin-left:auto!important;margin-right:auto!important}
+.sca-services-layout .tile-arrow{display:none!important}
+.sca-services-layout .tile-overlay{background:linear-gradient(0deg,rgba(12,34,54,.86),rgba(18,48,72,.35) 70%,rgba(18,48,72,.18))!important}
+.sca-service-details{background:#fff;padding:65px 0 75px}
+.sca-details-heading{text-align:center;max-width:800px;margin:0 auto 32px}
+.sca-details-heading h2{font:400 clamp(30px,3vw,45px)/1.18 Georgia,serif;color:#264761;margin:12px 0 14px}
+.sca-details-heading h2 em{font-style:italic}
+.sca-details-heading p{color:#617484;font-size:15px;margin:0 auto}
+.sca-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.sca-detail-card{border:1px solid #dce5eb;background:#f8fafb;border-radius:8px;padding:26px 28px;display:flex;flex-direction:column;min-width:0}
+.sca-detail-num{font-size:10px;letter-spacing:.14em;color:#587b94;font-weight:700}
+.sca-detail-card h3{font:400 28px/1.2 Georgia,serif;color:#264761;margin:12px 0}
+.sca-detail-card p{font-size:14px;line-height:1.6;color:#52697a;margin:0 0 14px}
+.sca-detail-card ul{padding-left:19px;margin:0 0 22px;flex:1;color:#344c5c;font-size:13px;line-height:1.7}
+.sca-detail-card li{margin:5px 0}
+.sca-detail-cta{align-self:flex-start;background:#264761;color:#fff!important;padding:11px 16px;font-size:12px;font-weight:700;border-radius:3px}
+.sca-detail-note{text-align:center;font-size:12px;color:#728391;margin:20px 0 0}
+.philosophy.section-wrap{padding-top:38px!important;padding-bottom:38px!important}
+.philosophy .philosophy-feature{margin-bottom:16px!important}
+.philosophy .values-grid{gap:12px!important}
+.philosophy .value-card{padding:16px 19px!important;min-height:0!important}
+.philosophy .value-card h3{margin:7px 0!important;font-size:17px!important}
+.philosophy .value-card p{font-size:12.5px!important;line-height:1.48!important}
+.philosophy .value-icon{background:transparent!important;box-shadow:none!important;border:0!important;padding:0!important;width:32px!important;height:32px!important}
+.philosophy .value-icon svg{width:30px!important;height:30px!important}
+.team-section .team-photo{height:clamp(175px,19vw,240px)!important;min-height:0!important}
+.team-section .team-photo img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 25%!important}
+.team-section .team-card:nth-child(2) .team-photo img{object-position:center 20%!important}
+.team-section .team-info{padding:19px 20px!important}
+.team-section .team-info p{margin-bottom:8px!important;line-height:1.48!important}
+.team-section .team-info h3{margin:6px 0 8px!important}
+.contact-section .contact-layout{gap:clamp(22px,3vw,45px)!important}
+.contact-section .contact-details .sca-contact-item{padding:7px 0!important;gap:10px!important}
+.contact-section .sca-address-simple{margin-top:10px!important;padding:0!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important}
+.contact-section .sca-address-simple .sca-address-title{margin-bottom:5px!important}
+.contact-section .sca-address-simple p{margin:4px 0 7px!important;font-size:13px!important;line-height:1.5!important;font-weight:400!important}
+.contact-section .sca-address-simple p:first-of-type{font-size:14px!important;line-height:1.5!important;font-weight:500!important}
+.contact-section .contact-form{padding:24px!important}
+.contact-section .form-grid{gap:12px!important}
+.contact-section .contact-form textarea{min-height:72px!important}
+@media(max-width:1000px){.site-header .brand{width:125px!important;flex-basis:125px!important;margin-left:0}.sca-header-social{gap:5px}.sca-header-social a{width:25px;height:25px}.sca-header-social img{width:24px;height:24px}}
+@media(max-width:850px){.site-header{height:76px!important;min-height:76px!important}.site-header .brand{width:112px!important;flex-basis:112px!important}.sca-header-social{gap:4px}.sca-header-social a{width:24px;height:24px}.sca-header-social img{width:23px;height:23px}.sca-detail-grid{grid-template-columns:1fr}.sca-service-details{padding:48px 0}.team-section .team-photo{height:260px!important}}
+@media(max-width:580px){.site-header .brand{width:92px!important;flex-basis:92px!important}.site-header .header-cta{font-size:9px!important;padding:9px 7px!important}.sca-header-social a{width:21px;height:21px}.sca-header-social img{width:21px;height:21px}.sca-services-layout .service-mosaic{grid-template-rows:repeat(2,160px)!important}.sca-services-layout .service-tile{height:160px!important}.sca-detail-card{padding:21px}.sca-detail-card h3{font-size:25px}.intro .intro-photo img{height:270px!important}.team-section .team-photo{height:240px!important}.contact-section .contact-form{padding:18px!important}}
