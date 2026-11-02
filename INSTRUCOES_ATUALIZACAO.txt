@@ -1,0 +1,3 @@
+Atualizacao incremental comparada com SCA_SITE_FINAL_ATUALIZADO_30OUT(1).zip.
+Envie os arquivos desta pasta para a raiz do repositorio GitHub, substituindo os arquivos com nomes iguais. Nao apague outros arquivos.
+Se seu repositorio usa outra versao, a lista de diferencas pode ser diferente.

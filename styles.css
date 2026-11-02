@@ -467,8 +467,16 @@ body,button,input,textarea,select{font-family:Arial,Helvetica,sans-serif}
 /* Hero: consistent complete-image framing across devices where geometry permits */
 @media(min-width:851px){.hero-image{background-size:contain!important;background-position:right center!important}}
 
-/* Ajuste aprovado: logo SCA maior, proporcional e responsiva */
-@media(min-width:1121px){.site-header{min-height:112px;padding-top:8px;padding-bottom:8px}.site-header .brand{width:245px;flex:0 0 245px}.site-header .brand img{width:100%;max-height:100px;height:auto;object-fit:contain;object-position:left center}.site-header .main-nav{gap:clamp(10px,1.25vw,20px)}}
-@media(min-width:851px) and (max-width:1120px){.site-header .brand{width:190px;flex:0 0 190px}.site-header .brand img{max-height:88px}}
-@media(min-width:581px) and (max-width:850px){.site-header .brand{width:160px;flex:0 1 160px}.site-header .brand img{max-height:80px}}
-@media(min-width:371px) and (max-width:580px){.site-header .brand{width:145px;flex:0 1 145px}.site-header .brand img{max-height:77px}}
+/* Ajustes finais aprovados em 02/11/2026 — manter identidade visual existente */
+.contact-details .detail-icon,
+.contact-details .detail-icon.whatsapp-logo,
+.contact-details .detail-icon.instagram-logo,
+.contact-details .detail-icon.email-logo {background:transparent!important;border:0!important;box-shadow:none!important;padding:4px!important;border-radius:0!important;}
+.contact-details .detail-icon img {width:34px!important;height:34px!important;object-fit:contain!important;}
+.sca-footer-social a {background:transparent!important;box-shadow:none!important;border:0!important;border-radius:0!important;}
+.sca-footer-social img {width:30px!important;height:30px!important;object-fit:contain!important;}
+.floating-instagram,.floating-whatsapp {background:transparent!important;box-shadow:none!important;border:0!important;}
+.team-photo {overflow:hidden!important;}
+.team-photo img {display:block!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 30%!important;}
+.philosophy .value-card{min-height:0!important;}
+@media(min-width:900px){.philosophy.section-wrap{padding-top:45px!important;padding-bottom:48px!important}.philosophy .philosophy-feature{margin-bottom:20px!important}.philosophy .value-card{padding:18px 21px!important}.philosophy .value-card p{font-size:13px!important;line-height:1.45!important}}

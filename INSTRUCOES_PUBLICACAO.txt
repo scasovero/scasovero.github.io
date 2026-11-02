@@ -1,0 +1,7 @@
+SCA — pacote completo para GitHub Pages / hospedagem estática.
+Envie TODOS os arquivos desta pasta para a raiz do repositório.
+index.html é a página principal; styles.css e script.js devem ficar na mesma pasta.
+Imagens e SVGs devem permanecer na mesma pasta, sem renomear.
+Alterações: seção de serviços, filosofia com 6 valores, fotos aprovadas de Aldair e Sabrina, ícones sem fundo branco em Contato e rodapé.
+Verifique o formulário e o layout em celular e notebook após publicar.
+A foto de Sabrina aprovada é derivada da imagem criada anteriormente por IA; a versão aprovada foi somente recortada, não alterada no rosto nessa etapa.
